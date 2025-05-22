@@ -1,0 +1,99 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "organization-cipn-1",
+        "meta": {
+          "source": "cipn",
+          "profile": [
+            "https://fhir-ig.sil-th.org/th/claimcon/StructureDefinition/claimcon-organization-provider"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code": "hcode"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/id/th-moph-hcode",
+            "value": "13814"
+          }
+        ],
+        "name": "โรงพยาบาลศิริราช"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Organization"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "organization-cipn-2",
+        "meta": {
+          "source": "cipn",
+          "profile": [
+            "https://fhir-ig.sil-th.org/th/claimcon/StructureDefinition/claimcon-organization-provider"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code": "hcode"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/id/th-moph-hcode",
+            "value": "10670"
+          }
+        ],
+        "name": "โรงพยาบาลขอนแก่น"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Organization"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "organization-cipn-3",
+        "meta": {
+          "source": "cipn",
+          "profile": [
+            "https://fhir-ig.sil-th.org/th/claimcon/StructureDefinition/claimcon-organization-provider"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code": "hcode"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/id/th-moph-hcode",
+            "value": "10662"
+          }
+        ],
+        "name": "โรงพยาบาลชลบุรี"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Organization"
+      }
+    }
+  ]
+}

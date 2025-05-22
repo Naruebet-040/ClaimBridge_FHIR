@@ -1,0 +1,303 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "practitioner-eclaim-01",
+        "meta": {
+          "source": "eclaim",
+          "profile": [
+            "https://fhir-ig.sil-th.org/th/claimcon/StructureDefinition/claimcon-practitioner-base"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code": "hcode"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/id/th-moph-hcode",
+            "value": "10670"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code": "cid",
+                  "display": "เลขประจำตัวประชาชนไทย"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/id/th-cid",
+            "value": "1304805501857"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code": "localAn"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/hcode/5/13814/AN",
+            "value": "Xxx000"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code": "proDoc"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/core/NamingSystem/IDThaiDoctor",
+            "value": "11111"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code": "COUNCIL"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/core/CodeSystem/cs-thcc-qualification-issuer",
+            "value": "01"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/vs-th-identifier-type",
+                  "code": "PROVIDERTYPE"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/core/ValueSet/vs-thcc-individual-provider-type",
+            "value": "01"
+          }
+        ],
+        "name": [
+          {
+            "text": "พญ. สมหญิง ยอดเยี่ยม",
+            "family": "ยอดเยี่ยม",
+            "given": ["สมหญิง"],
+            "prefix": ["พญ."]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "practitioner-eclaim-02",
+        "meta": {
+          "source": "eclaim",
+          "profile": [
+            "https://fhir-ig.sil-th.org/th/claimcon/StructureDefinition/claimcon-practitioner-base"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code": "hcode"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/id/th-moph-hcode",
+            "value": "10662"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code": "cid",
+                  "display": "เลขประจำตัวประชาชนไทย"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/id/th-cid",
+            "value": "1104111401234"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code": "localAn"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/hcode/5/13814/AN",
+            "value": "Xxx000"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code": "proDoc"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/core/NamingSystem/IDThaiDoctor",
+            "value": "22222"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code": "COUNCIL"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/core/CodeSystem/cs-thcc-qualification-issuer",
+            "value": "02"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/vs-th-identifier-type",
+                  "code": "PROVIDERTYPE"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/core/ValueSet/vs-thcc-individual-provider-type",
+            "value": "02"
+          }
+        ],
+        "name": [
+          {
+            "text": "นพ. ธีรเดช เก่งจริง",
+            "family": "เก่งจริง",
+            "given": ["ธีรเดช"],
+            "prefix": ["นพ."]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "practitioner-eclaim-03",
+        "meta": {
+          "source": "eclaim",
+          "profile": [
+            "https://fhir-ig.sil-th.org/th/claimcon/StructureDefinition/claimcon-practitioner-base"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code": "hcode"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/id/th-moph-hcode",
+            "value": "13814"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code": "cid",
+                  "display": "เลขประจำตัวประชาชนไทย"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/id/th-cid",
+            "value": "1604802401857"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code": "localAn"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/hcode/5/13814/AN",
+            "value": "Xxx000"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code": "proDoc"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/core/NamingSystem/IDThaiDoctor",
+            "value": "33333"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code": "COUNCIL"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/core/CodeSystem/cs-thcc-qualification-issuer",
+            "value": "03"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://terms.sil-th.org/core/CodeSystem/vs-th-identifier-type",
+                  "code": "PROVIDERTYPE"
+                }
+              ]
+            },
+            "system": "https://terms.sil-th.org/core/ValueSet/vs-thcc-individual-provider-type",
+            "value": "03"
+          }
+        ],
+        "name": [
+          {
+            "text": "นพ. สมหวัง ใจดี",
+            "family": "ใจดี",
+            "given": ["สมหวัง"],
+            "prefix": ["นพ."]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner"
+      }
+    }
+  ]
+}

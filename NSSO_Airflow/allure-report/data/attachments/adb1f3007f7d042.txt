@@ -1,0 +1,11 @@
+[32mINFO    [0m airflow.models.dagbag.DagBag:dagbag.py:588 Filling up the DagBag from C:\Users\narub/airflow/dags
+[33mWARNING [0m unusual_prefix_4e7174d4978f895eabf3dc795718da5ec0423d7d_example_kubernetes_executor:example_kubernetes_executor.py:39 The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[33mWARNING [0m unusual_prefix_c32667ac99bafcfa037149525462b37d82375e20_example_local_kubernetes_executor:example_local_kubernetes_executor.py:40 Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "C:\Users\narub\AppData\Local\Programs\Python\Python312\Lib\site-packages\airflow\example_dags\example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[33mWARNING [0m unusual_prefix_c32667ac99bafcfa037149525462b37d82375e20_example_local_kubernetes_executor:example_local_kubernetes_executor.py:41 Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[33mWARNING [0m unusual_prefix_fea30a2f5bc9a9a85157f648df68c99e4d20c259_example_python_decorator:example_python_decorator.py:80 The virtalenv_python example task requires virtualenv, please install it.
+[33mWARNING [0m unusual_prefix_ff817044f020612b0f3033cb1ba1851c7b84101a_example_python_operator:example_python_operator.py:93 The virtalenv_python example task requires virtualenv, please install it.
+[33mWARNING [0m unusual_prefix_f9e1794005a8034293a2e90b0447556611874ec6_tutorial_taskflow_api_virtualenv:tutorial_taskflow_api_virtualenv.py:29 The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.

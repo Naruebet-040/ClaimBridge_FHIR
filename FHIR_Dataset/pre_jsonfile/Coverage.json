@@ -1,0 +1,31 @@
+{
+    "resourceType": "Coverage",
+    "id": "Coverage-eclaim",
+    "identifier" : [
+        {
+            "type" : {
+              "coding" : [
+                {
+                  "system" : "https://terms.sil-th.org/core/CodeSystem/cs-th-identifier-type",
+                  "code" : "cid",
+                  "display" : "เลขประจำตัวประชาชนไทย"
+                }
+              ]
+            },
+            "system" : "https://terms.sil-th.org/id/th-cid",
+            "value" : "3456789012345"
+          }
+    ],
+    "type": {
+        "coding": [
+            {
+                "system": "https://terms.sil-th.org/core/ValueSet/vs-th-coverage-type",
+                "code": "UCS"
+            }
+        ]
+    },
+    "period": {
+        "end": "2024-12-31"
+    }
+
+  }
