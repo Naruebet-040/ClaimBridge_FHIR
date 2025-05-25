@@ -14,7 +14,7 @@ ClaimBridge\_FHIR เป็นโครงการที่พัฒนาข�
 
 ```
 ClaimBridge_FHIR/
-├── FHIR Server/       ← [📘 อ่านคู่มือ](./FHIR%20Server/README.md)
+├── FHIR Server/       ← [📘 อ่านคู่มือ](./FHIR Server/README.md)
 ├── NSSO_Airflow/      ← [📘 อ่านคู่มือ](./NSSO_Airflow/README.md)
 ├── wepapp/            ← [📘 อ่านคู่มือ](./wepapp/README.md)
 └── readme.md
