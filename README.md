@@ -21,7 +21,7 @@ docker-compose up
 
 cd ../wepapp
 npm install && npm run dev
-
+```
 
 
 
