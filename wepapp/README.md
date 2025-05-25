@@ -1,3 +1,4 @@
+<div align="right">🔙 [กลับสู่หน้าหลัก](../readme.md)</div>
 # 🌐 wepapp (draft version)
 
 ระบบ webapp เป็น frontend สำหรับให้ผู้ใช้เข้าถึงข้อมูลผ่าน UI โดยพัฒนาด้วย React + Vite
@@ -61,4 +62,3 @@ npm run build
 ```
 
 * การเชื่อมต่อ backend สามารถตั้งค่าที่ไฟล์ `.env`
-
