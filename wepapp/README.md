@@ -1,4 +1,4 @@
-<p align="right"><a href="../README.md">🔙 กลับหน้าแรก</a></p>
+<p align="right"><a href="../README.md">กลับหน้าแรก</a></p>
 
 
 # 🌐 wepapp (draft version)
