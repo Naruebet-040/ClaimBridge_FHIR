@@ -1,4 +1,4 @@
-# ClaimBridge_FHIR (Drafted)
+# ClaimBridge_FHIR (_Root_)
 
 ระบบกลางสำหรับจัดการข้อมูลเคลมสุขภาพด้วย FHIR มาตรฐาน HL7
 
@@ -29,7 +29,7 @@ npm install && npm run dev
 
 -------------------------------------------------------------
 
-## 📘 FHIR Server with HAPI FHIR JPA (MongoDB)
+## 📘 FHIR Server with HAPI FHIR JPA (MongoDB) (~/FHIR Server)
 
 ### 🔰 Overview
 
