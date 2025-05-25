@@ -134,5 +134,5 @@ src/
 
 ---
 
-> Maintained by Your Team @ Organization Name
+> Maintained by ClaimBridge FHIR @ Organization Name
 
