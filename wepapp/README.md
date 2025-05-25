@@ -1,4 +1,4 @@
-# 🌐 wepapp
+# 🌐 wepapp (draft version)
 
 ระบบ webapp เป็น frontend สำหรับให้ผู้ใช้เข้าถึงข้อมูลผ่าน UI โดยพัฒนาด้วย React + Vite
 
