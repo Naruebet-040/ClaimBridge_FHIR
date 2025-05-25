@@ -1,14 +1,14 @@
 # ClaimBridge_FHIR (Drafted)
 
-# 📘 FHIR Server with HAPI FHIR JPA (MongoDB)
+## 📘 FHIR Server with HAPI FHIR JPA (MongoDB)
 
-## 🔰 Overview
+### 🔰 Overview
 
 This project is a FHIR Server based on **HAPI FHIR (R4)** implemented using **Spring Boot** and configured to use **MongoDB** as the database. The server supports standard FHIR RESTful operations on resources such as `Patient`, `Observation`, and `Claim`.
 
 ---
 
-## 🧾 Prerequisites
+### 🧾 Prerequisites
 
 Before running this project, ensure you have the following installed:
 
@@ -19,7 +19,7 @@ Before running this project, ensure you have the following installed:
 
 ---
 
-## 📦 Clone the Project
+### 📦 Clone the Project
 
 ```bash
 git clone https://github.com/Naruebet-040/ClaimBridge_FHIR.git
@@ -28,7 +28,7 @@ cd ClaimBridge_FHIR/FHIR Server
 
 ---
 
-## ⚙️ Configuration
+### ⚙️ Configuration
 
 Edit the MongoDB connection in `src/main/resources/application.yaml`:
 
@@ -50,7 +50,7 @@ hapi:
 
 ---
 
-## 🚀 Run the Server
+### 🚀 Run the Server
 
 Run the application using Maven:
 
@@ -67,7 +67,7 @@ java -jar target/fhir-server.jar
 
 ---
 
-## 🌐 Access the Server
+### 🌐 Access the Server
 
 After starting, access the FHIR server at:
 
@@ -75,20 +75,20 @@ After starting, access the FHIR server at:
 http://localhost:8080/fhir
 ```
 
-### Test via `curl`
+#### Test via `curl`
 
 ```bash
 curl -X GET http://localhost:8080/fhir/Patient
 ```
 
-### Test via Postman
+#### Test via Postman
 
 * Method: `GET`
 * URL: `http://localhost:8080/fhir/Patient`
 
 ---
 
-## 🧪 Sample Payload (Create Patient)
+### 🧪 Sample Payload (Create Patient)
 
 ```bash
 curl -X POST http://localhost:8080/fhir/Patient \
@@ -103,7 +103,7 @@ curl -X POST http://localhost:8080/fhir/Patient \
 
 ---
 
-## 📁 Project Structure
+### 📁 Project Structure
 
 ```
 src/
@@ -119,7 +119,7 @@ src/
 
 ---
 
-## 💬 Common Issues
+### 💬 Common Issues
 
 * **MongoDB connection error:** Ensure MongoDB is running at `localhost:27017`.
 * **Port conflict:** Default port `8080` may already be in use.
@@ -127,7 +127,7 @@ src/
 
 ---
 
-## 📚 References
+### 📚 References
 
 * [HAPI FHIR Documentation](https://hapifhir.io/)
 * [FHIR Specification](https://www.hl7.org/fhir/)
