@@ -55,13 +55,13 @@ hapi:
 Run the application using Maven:
 
 ```bash
-./mvnw spring-boot:run
+mvn spring-boot:run
 ```
 
 Or build and run the jar:
 
 ```bash
-./mvnw clean package
+mvn clean package
 java -jar target/fhir-server.jar
 ```
 
