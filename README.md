@@ -1,5 +1,34 @@
 # ClaimBridge_FHIR (Drafted)
 
+ระบบกลางสำหรับจัดการข้อมูลเคลมสุขภาพด้วย FHIR มาตรฐาน HL7
+
+## 📁 Modules
+
+| Module         | Description                          |
+|----------------|--------------------------------------|
+| `FHIR Server`  | FHIR API ด้วย Spring Boot + MongoDB |
+| `NSSO_Airflow` | ระบบ Airflow สำหรับ ETL และ DAGs    |
+| `wepapp`       | Web UI สำหรับจัดการข้อมูล FHIR     |
+
+## ▶️ Quick Start
+
+```bash
+cd "FHIR Server"
+./mvnw spring-boot:run
+
+cd ../NSSO_Airflow
+docker-compose up
+
+cd ../wepapp
+npm install && npm run dev
+
+
+
+
+
+
+-------------------------------------------------------------
+
 ## 📘 FHIR Server with HAPI FHIR JPA (MongoDB)
 
 ### 🔰 Overview
