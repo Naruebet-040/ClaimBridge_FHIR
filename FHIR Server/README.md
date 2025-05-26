@@ -59,13 +59,6 @@ Run the application using Maven:
 mvn spring-boot:run
 ```
 
-Or build and run the jar:
-
-```bash
-mvn clean package
-java -jar target/fhir-server.jar
-```
-
 ---
 
 ### 🌐 Access the Server
