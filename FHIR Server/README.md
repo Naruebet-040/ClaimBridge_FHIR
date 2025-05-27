@@ -16,7 +16,6 @@ Before running this project, ensure you have the following installed:
 * **Java 17+**
 * **Apache Maven 3.6+**
 * **MongoDB 6.0+** (running locally or in a container)
-* **Git** (optional)
 
 ---
 
