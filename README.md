@@ -1,8 +1,7 @@
-# ClaimBridge_FHIR (_Root_)
 
-# 🧩 ClaimBridge\_FHIR
+# ClaimBridge FHIR
 
-ClaimBridge\_FHIR เป็นโครงการที่พัฒนาขึ้นเพื่อรองรับการจัดการข้อมูลเคลมสุขภาพในรูปแบบ HL7 FHIR มาตรฐานสากล โดยประกอบด้วยระบบ 3 ส่วนหลัก:
+ClaimBridge FHIR เป็นโครงการที่พัฒนาขึ้นเพื่อรองรับการจัดการข้อมูลเคลมสุขภาพในรูปแบบ HL7 FHIR มาตรฐานสากล โดยประกอบด้วยระบบ 3 ส่วนหลัก:
 
 * 🔹 FHIR Server (Spring Boot + MongoDB)
 * 🔹 Airflow สำหรับ ETL
