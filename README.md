@@ -10,6 +10,15 @@ ClaimBridge\_FHIR เป็นโครงการที่พัฒนาข�
 
 ---
 
+## 📦 Clone the Project
+
+```bash
+git clone https://github.com/Naruebet-040/ClaimBridge_FHIR.git
+cd ClaimBridge_FHIR/FHIR Server
+```
+
+---
+
 ## 📁 โครงสร้างโปรเจกต์
 
 ```
