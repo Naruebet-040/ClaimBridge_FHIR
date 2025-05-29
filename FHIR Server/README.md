@@ -19,14 +19,6 @@ Before running this project, ensure you have the following installed:
 
 ---
 
-### 📦 Clone the Project
-
-```bash
-git clone https://github.com/Naruebet-040/ClaimBridge_FHIR.git
-cd ClaimBridge_FHIR/FHIR Server
-```
-
----
 
 ### ⚙️ Configuration
 
