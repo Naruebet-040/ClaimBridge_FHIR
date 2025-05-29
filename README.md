@@ -35,7 +35,7 @@ ClaimBridge_FHIR/
 ```bash
 # รัน FHIR Server
 cd "FHIR Server"
-./mvnw spring-boot:run
+mvn spring-boot:run
 
 # รัน Airflow
 cd ../NSSO_Airflow
