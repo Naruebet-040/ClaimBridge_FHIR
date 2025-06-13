@@ -9,6 +9,23 @@ This project is a FHIR Server based on **HAPI FHIR (R4)** implemented using **Sp
 
 ---
 
+### 📁 Project Structure
+
+```
+src/
+ └── main/
+      ├── java/ca/uhn/fhir/jpa/starter/
+      │    ├── config/
+      │    ├── controller/
+      │    └── service/
+      |    └── ...
+      └── resources/
+           ├── application.yaml
+           └── ...
+```
+
+---
+
 ### 🧾 Prerequisites
 
 Before running this project, ensure you have the following installed:
@@ -18,7 +35,6 @@ Before running this project, ensure you have the following installed:
 * **MongoDB 6.0+** (running locally or in a container)
 
 ---
-
 
 ### ⚙️ Configuration
 
@@ -97,22 +113,6 @@ You should see a FHIR Bundle response containing any existing Patient resources.
 
 ---
 
-### 📁 Project Structure
-
-```
-src/
- └── main/
-      ├── java/ca/uhn/fhir/jpa/starter/
-      │    ├── config/
-      │    ├── controller/
-      │    └── service/
-      └── resources/
-           ├── application.yaml
-           └── ...
-```
-
----
-
 ### 💬 Common Issues
 
 * **MongoDB connection error:** Ensure MongoDB is running at `localhost:27017`.
@@ -130,5 +130,5 @@ src/
 
 ---
 
-> Maintained by ClaimBridge FHIR @ Organization Name
+> Maintained by ClaimBridge FHIR
 
