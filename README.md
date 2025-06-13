@@ -9,6 +9,16 @@ ClaimBridge FHIR เป็นโครงการที่พัฒนาขึ
 
 ---
 
+## ⚙️ ความต้องการระบบ
+
+* Java 17+
+* MongoDB 6+
+* Maven 3.6+
+* Docker + Docker Compose
+* Node.js 18+
+
+---
+
 ## 📦 Clone the Project
 
 ```bash
@@ -56,15 +66,6 @@ npm install && npm run dev
 | 📊 **NSSO\_Airflow**   | [📘 NSSO\_Airflow/README.md](./NSSO_Airflow/README.md) |
 | 🌐 **Web Application** | [📘 wepapp/README.md](./wepapp/README.md)              |
 
----
-
-## ⚙️ ความต้องการระบบ
-
-* Java 17+
-* MongoDB 6+
-* Maven 3.6+
-* Docker + Docker Compose
-* Node.js 18+
 
 ---
 
