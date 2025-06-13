@@ -65,16 +65,34 @@ You should see a FHIR Bundle response containing any existing Patient resources.
 
 ### 🧪 Sample Payload (Create Patient)
 
-```bash
-curl -X POST http://localhost:8080/fhir/Patient \
-     -H "Content-Type: application/fhir+json" \
-     -d '{
-           "resourceType": "Patient",
-           "name": [{ "use": "official", "family": "Smith", "given": ["John"] }],
-           "gender": "male",
-           "birthDate": "1980-01-01"
-         }'
-```
+> ⚠️ Note: Patient data is automatically posted to this server by the backend system.  
+> This Postman example is provided for reference or manual testing purposes only.
+
+#### ▶️ Postman Setup
+
+**Method:** `POST`  
+**URL:** `http://localhost:8080/fhir/Patient`  
+**Headers:**
+
+| Key            | Value                  |
+|----------------|------------------------|
+| Content-Type   | application/fhir+json  |
+
+**Body (raw → JSON):**
+
+```json
+{
+  "resourceType": "Patient",
+  "name": [
+    {
+      "use": "official",
+      "family": "Smith",
+      "given": ["John"]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1980-01-01"
+}
 
 ---
 
