@@ -18,7 +18,7 @@ src/
       │    ├── config/
       │    ├── controller/
       │    └── service/
-      |    └── ResourceMapper
+      |    └── ResourceMapper/
       |    └── ...
       └── resources/
            ├── application.yaml
