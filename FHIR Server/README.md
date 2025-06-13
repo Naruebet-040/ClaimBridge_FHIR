@@ -45,11 +45,16 @@ After starting, access the FHIR server at:
 http://localhost:8080/fhir
 ```
 
-#### Test via `curl`
+#### Test via web browser
 
+Open your browser and navigate to:
 ```bash
-curl -X GET http://localhost:8080/fhir/Patient
+http://localhost:8080/fhir/Patient
 ```
+
+You should see a FHIR Bundle response containing any existing Patient resources.
+
+
 
 #### Test via Postman
 
