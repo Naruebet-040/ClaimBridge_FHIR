@@ -22,8 +22,8 @@ Before running this project, ensure you have the following installed:
 
 ### ⚙️ Configuration (X)
 
-> Move the FHIR_Dataset folder to the path C:/FHIR_Dataset
-> ✅ Make sure MongoDB is running before starting the server.
+* Move the FHIR_Dataset folder to the path C:/FHIR_Dataset
+* ✅ Make sure MongoDB is running before starting the server.
 
 ---
 
