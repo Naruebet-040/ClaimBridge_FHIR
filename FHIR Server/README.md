@@ -9,6 +9,16 @@ This project is a FHIR Server based on **HAPI FHIR (R4)** implemented using **Sp
 
 ---
 
+### 🧾 Prerequisites
+
+Before running this project, ensure you have the following installed:
+
+* **Java 17+**
+* **Apache Maven 3.6+**
+* **MongoDB 6.0+** (running locally or in a container)
+
+---
+
 ### 📁 Project Structure
 
 ```
@@ -24,16 +34,6 @@ src/
            ├── application.yaml
            └── ...
 ```
-
----
-
-### 🧾 Prerequisites
-
-Before running this project, ensure you have the following installed:
-
-* **Java 17+**
-* **Apache Maven 3.6+**
-* **MongoDB 6.0+** (running locally or in a container)
 
 ---
 
