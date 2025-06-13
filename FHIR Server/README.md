@@ -22,22 +22,7 @@ Before running this project, ensure you have the following installed:
 
 ### ⚙️ Configuration (X)
 
-Edit the MongoDB connection in `src/main/resources/application.yaml`:
-
-```yaml
-spring:
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/fhirdb
-
-hapi:
-  fhir:
-    version: R4
-    rest:
-      server-name: FHIR Mongo Server
-      server-version: 1.0.0
-```
-
+> Move the FHIR_Dataset folder to the path C:/FHIR_Dataset
 > ✅ Make sure MongoDB is running before starting the server.
 
 ---
