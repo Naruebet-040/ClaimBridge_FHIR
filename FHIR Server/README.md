@@ -20,7 +20,7 @@ Before running this project, ensure you have the following installed:
 ---
 
 
-### ⚙️ Configuration
+### ⚙️ Configuration (X)
 
 Edit the MongoDB connection in `src/main/resources/application.yaml`:
 
