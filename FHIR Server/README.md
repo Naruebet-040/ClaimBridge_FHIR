@@ -93,6 +93,7 @@ You should see a FHIR Bundle response containing any existing Patient resources.
   "gender": "male",
   "birthDate": "1980-01-01"
 }
+```
 
 ---
 
