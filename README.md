@@ -67,7 +67,7 @@ npm install && npm run dev
 
 ---
 
-
+> Maintained by ClaimBridge FHIR
 
 
 
