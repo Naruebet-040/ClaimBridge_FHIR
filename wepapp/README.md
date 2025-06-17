@@ -1,54 +1,55 @@
-<p align="right"><a href="../README.md">กลับหน้าแรก</a></p>
+<p align="right"><a href="../README.md">Back to Home</a></p>
 
 # 🌐 wepapp
 
-**wepapp** เป็นระบบเว็บแอปที่พัฒนาโดยใช้ HTML, CSS, JavaScript ร่วมกับ Node.js และ Express โดยมีจุดประสงค์เพื่อให้บริการหน้าเว็บแบบ static และ dynamic เช่น `index.html`, `login.html`, และ `resourcelist.html`
+**wepapp** is a web application developed using HTML, CSS, and JavaScript along with Node.js and Express. It serves both static and dynamic web pages such as `index.html`, `login.html`, and `resourcelist.html`.
 
 ---
 
-## ✅ ข้อมูลเบื้องต้น
+## ✅ Overview
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js + Express
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Node.js + Express
 
 ---
 
-## ⚙️ การติดตั้งและเริ่มใช้งาน
+## ⚙️ Installation and Running the Project
 
-### 1. ติดตั้ง Node.js
-แนะนำให้ใช้เวอร์ชัน 18 ขึ้นไป
+### 1. Install Node.js  
+It is recommended to use version 18 or higher.
 
-### 2. ติดตั้ง Dependencies
+### 2. Install dependencies  
 ```bash
 npm install
 ```
 
-### 3. รันโปรเจกต์
+### 3. Start the project
 ```bash
 npm start
 ```
 
-ระบบจะพร้อมใช้งานที่:
+The system will be available at:
 ```bash
 http://localhost:3000
 ```
 ---
 
-## 🗂️ โครงสร้างโปรเจกต์
+## 🗂️ Project Structure
 ```bash
 
 wepapp/
-├── css/               # ไฟล์ CSS สำหรับตกแต่งหน้าเว็บ
-├── fonts/             # ฟอนต์ที่ใช้ในระบบ (ถ้ามี)
-├── images/            # ไฟล์รูปภาพประกอบ
-├── js/                # JavaScript ฝั่ง client
-├── node_modules/      # ไลบรารีที่ติดตั้งจาก npm
-├── index.html         # หน้าเว็บหลัก
-├── login.html         # หน้าเข้าสู่ระบบ
-├── resourcelist.html  # หน้ารายการทรัพยากร
-├── server.js          # Express Server
-├── package.json       # รายละเอียด dependencies และสคริปต์
-└── README.md          # ไฟล์อธิบายโปรเจกต์
+├── css/               # CSS files for styling the web pages
+├── fonts/             # Fonts used in the system (if any)
+├── images/            # Image assets
+├── js/                # Client-side JavaScript files
+├── node_modules/      # Libraries installed via npm
+├── index.html         # Main homepage
+├── login.html         # Login page
+├── resourcelist.html  # Resource list page
+├── server.js          # Express server file
+├── package.json       # Dependencies and scripts
+└── README.md          # Project description
+
 
 ```
 
@@ -56,7 +57,7 @@ wepapp/
 
 ## 🧪 การทดสอบเบื้องต้น
 
-- เปิดเบราว์เซอร์ที่ http://localhost:3000
+- Open your browser at ``` http://localhost:3000 ```
 - ตรวจสอบว่าโหลดหน้า index.html ได้ตามปกติ
 - ลองเข้าหน้า Sign in 
   ```bash
