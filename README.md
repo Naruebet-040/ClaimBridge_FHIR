@@ -38,9 +38,12 @@ ClaimBridge_FHIR/
 ```
 
 ### 📘 Read the manuals
-- [FHIR Server Manual](./FHIR%20Server/README.md)
-- [NSSO_Airflow Manual](./NSSO_Airflow/README.md)
-- [Webapp Manual](./wepapp/README.md)
+| Module                 | User Guide                             |
+| ---------------------- | ------------------------------------------------------ |
+| 🏥 **FHIR Server**     | [📘 FHIR Server Setup](./FHIR%20Server/README.md)  |
+| 📊 **NSSO\_Airflow**   | [📘 NSSO Airflow Setup](./NSSO_Airflow/README.md) |
+| 🌐 **Web Application** | [📘 wepapp Setup](./wepapp/README.md)              |
+| **ClaimBridge_FHIR**    | This file                                          |
 
 ---
 
