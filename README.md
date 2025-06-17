@@ -63,9 +63,9 @@ npm install && npm run dev
 
 | Module                 | User Guide                             |
 | ---------------------- | ------------------------------------------------------ |
-| 🏥 **FHIR Server**     | [📘 FHIR Server/README.md](./FHIR%20Server/README.md)  |
-| 📊 **NSSO\_Airflow**   | [📘 NSSO\_Airflow/README.md](./NSSO_Airflow/README.md) |
-| 🌐 **Web Application** | [📘 wepapp/README.md](./wepapp/README.md)              |
+| 🏥 **FHIR Server**     | [📘 FHIR Server Setup](./FHIR%20Server/README.md)  |
+| 📊 **NSSO\_Airflow**   | [📘 NSSO\_Airflow Setup](./NSSO_Airflow/README.md) |
+| 🌐 **Web Application** | [📘 wepapp Setup](./wepapp/README.md)              |
 
 
 ---
