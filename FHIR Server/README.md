@@ -1,4 +1,4 @@
-<p align="right"><a href="../README.md">กลับหน้าแรก</a></p>
+<p align="right"><a href="../README.md">Back to Home</a></p>
 
 
 ## 📘 FHIR Server with HAPI FHIR JPA (MongoDB) (~/FHIR Server)
