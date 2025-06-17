@@ -1,15 +1,15 @@
 
 # ClaimBridge FHIR
 
-ClaimBridge FHIR เป็นโครงการที่พัฒนาขึ้นเพื่อรองรับการจัดการข้อมูลเคลมสุขภาพในรูปแบบ HL7 FHIR มาตรฐานสากล โดยประกอบด้วยระบบ 3 ส่วนหลัก:
+ClaimBridge FHIR is a project developed to support the management of health claim data following the international HL7 FHIR standard. It consists of three main systems:
 
 * 🔹 FHIR Server (Spring Boot + MongoDB)
-* 🔹 Airflow สำหรับ ETL
-* 🔹 Web Application สำหรับการเข้าถึงข้อมูลแบบ UI
+* 🔹 Airflow for ETL processes
+* 🔹 Web Application for UI data access
 
 ---
 
-## ⚙️ ความต้องการระบบ
+## ⚙️ System Requirements
 
 * Java 17+
 * MongoDB 6+
@@ -20,7 +20,6 @@ ClaimBridge FHIR เป็นโครงการที่พัฒนาขึ
 ---
 
 ## 📦 Clone the Project
-
 ```bash
 git clone https://github.com/Naruebet-040/ClaimBridge_FHIR.git
 cd ClaimBridge_FHIR/FHIR Server
@@ -28,39 +27,41 @@ cd ClaimBridge_FHIR/FHIR Server
 
 ---
 
-## 📁 โครงสร้างโปรเจกต์
+## 📁 Project Structure
 
 ```
 ClaimBridge_FHIR/
-├── FHIR Server/       ← [📘 อ่านคู่มือ](./FHIR Server/README.md)
-├── NSSO_Airflow/      ← [📘 อ่านคู่มือ](./NSSO_Airflow/README.md)
-├── wepapp/            ← [📘 อ่านคู่มือ](./wepapp/README.md)
+├── FHIR Server/       ← [📘 Read the manual](./FHIR Server/README.md)
+├── NSSO_Airflow/      ← [📘 Read the manual](./NSSO_Airflow/README.md)
+├── wepapp/            ← [📘 Read the manual](./wepapp/README.md)
 └── readme.md
 ```
 
 ---
 
-## ▶️ วิธีใช้งานเบื้องต้น
+## ▶️ Basic Usage
 
 ```bash
-# รัน FHIR Server
+
+# Run FHIR Server
 cd "FHIR Server"
 mvn spring-boot:run
 
-# รัน Airflow
+# Run Airflow
 cd ../NSSO_Airflow
 docker-compose up
 
-# รัน Webapp
+# Run Webapp
 cd ../wepapp
 npm install && npm run dev
+
 ```
 
 ---
 
-## 🔗 ลิงก์คู่มือย่อ
+## 🔗 Quick Links to Manuals
 
-| Module                 | คู่มือการใช้งาน                                        |
+| Module                 | User Guide                             |
 | ---------------------- | ------------------------------------------------------ |
 | 🏥 **FHIR Server**     | [📘 FHIR Server/README.md](./FHIR%20Server/README.md)  |
 | 📊 **NSSO\_Airflow**   | [📘 NSSO\_Airflow/README.md](./NSSO_Airflow/README.md) |
