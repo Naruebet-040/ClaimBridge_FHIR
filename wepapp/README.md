@@ -58,13 +58,13 @@ wepapp/
 
 ## 🧪 การทดสอบเบื้องต้น
 
-### 1. เปิดเบราว์เซอร์ที่ http://localhost:3000
+- เปิดเบราว์เซอร์ที่ http://localhost:3000
 
-### 2. ตรวจสอบว่าโหลดหน้า index.html ได้ตามปกติ
+- ตรวจสอบว่าโหลดหน้า index.html ได้ตามปกติ
 
-### 3. ลองเข้าหน้า http://localhost:3000/login.html และ resourcelist.html
+- ลองเข้าหน้า http://localhost:3000/login.html และ resourcelist.html
 
-### 4. ตรวจสอบว่า CSS และ JS โหลดทำงานได้ครบ
+- ตรวจสอบว่า CSS และ JS โหลดทำงานได้ครบ
 
 ---
 
