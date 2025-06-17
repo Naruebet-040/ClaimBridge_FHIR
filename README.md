@@ -67,20 +67,7 @@ npm install && npm run dev
 
 ---
 
-## 🔗 Quick Links to Manuals
 
-| Module                 | User Guide                             |
-| ---------------------- | ------------------------------------------------------ |
-| 🏥 **FHIR Server**     | [📘 FHIR Server Setup](./FHIR%20Server/README.md)  |
-| 📊 **NSSO\_Airflow**   | [📘 NSSO Airflow Setup](./NSSO_Airflow/README.md) |
-| 🌐 **Web Application** | [📘 wepapp Setup](./wepapp/README.md)              |
-
-
----
-
-## 📜 License
-
-MIT License (หรือตามที่องค์กรกำหนด)
 
 
 
