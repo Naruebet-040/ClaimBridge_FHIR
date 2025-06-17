@@ -10,8 +10,6 @@
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Node.js + Express
-- **Static UI**: ไม่มีการใช้ Framework (เช่น React หรือ Vue)
-- เหมาะสำหรับระบบแสดงผลเบื้องต้นผ่าน UI แบบ Static
 
 ---
 
@@ -59,11 +57,13 @@ wepapp/
 ## 🧪 การทดสอบเบื้องต้น
 
 - เปิดเบราว์เซอร์ที่ http://localhost:3000
-
 - ตรวจสอบว่าโหลดหน้า index.html ได้ตามปกติ
-
-- ลองเข้าหน้า http://localhost:3000/login.html และ resourcelist.html
-
+- ลองเข้าหน้า Sign in 
+  ```bash
+  username: NSSO
+  password: NSSOpassword
+  ```
+- ลองเข้าหน้า Resource List
 - ตรวจสอบว่า CSS และ JS โหลดทำงานได้ครบ
 
 ---
@@ -72,71 +72,3 @@ wepapp/
 - หากต้องการเชื่อมต่อ API เพิ่มเติม สามารถปรับแต่งได้ใน server.js
 - หากระบบจะเติบโตในอนาคต อาจพิจารณาย้ายไปใช้ React, Vue หรือ Framework อื่นๆ เพื่อจัดการ UI ที่ซับซ้อนมากขึ้น
 
-
-
----
----
-
-# 🌐 wepapp (draft version)
-
-ระบบ webapp เป็น frontend สำหรับให้ผู้ใช้เข้าถึงข้อมูลผ่าน UI โดยพัฒนาด้วย React + Vite
-
----
-
-## ✅ ข้อมูลเบื้องต้น
-
-* React 18
-* Vite สำหรับ build และ dev server
-* ใช้ Tailwind CSS หรือ Emotion (ขึ้นกับโปรเจกต์จริง)
-
----
-
-## ⚙️ การติดตั้งและใช้งาน
-
-### 1. ตรวจสอบ Node.js
-
-* แนะนำ Node.js เวอร์ชัน 18 ขึ้นไป
-
-### 2. ติดตั้ง dependencies และรันโปรเจกต์
-
-```bash
-cd wepapp
-npm install
-npm run dev
-```
-
-ระบบจะพร้อมใช้งานที่:
-
-```
-http://localhost:3000
-```
-
----
-
-## 🗂️ โครงสร้างโปรเจกต์หลัก
-
-* `src/` : โค้ดหลักของระบบ
-
-  * `pages/` : หน้าแต่ละหน้า
-  * `components/` : ส่วนประกอบ UI
-  * `lib/` : คลังฟังก์ชัน, context, API service ฯลฯ
-* `public/` : ไฟล์ static เช่น favicon, logo
-
----
-
-## 🧪 การทดสอบ
-
-* ตรวจสอบว่าโหลดหน้าเว็บได้สำเร็จที่ [http://localhost:5173](http://localhost:5173)
-* ตรวจสอบการดึงข้อมูลจาก FHIR Server
-
----
-
-## 📌 หมายเหตุ
-
-* หากต้องการ build สำหรับ production:
-
-```bash
-npm run build
-```
-
-* การเชื่อมต่อ backend สามารถตั้งค่าที่ไฟล์ `.env`
