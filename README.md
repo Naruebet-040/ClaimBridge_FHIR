@@ -31,7 +31,7 @@ cd ClaimBridge_FHIR/FHIR Server
 
 ```
 ClaimBridge_FHIR/
-├── FHIR Server/       ← [📘 Read the manual](./FHIR Server/README.md)
+├── FHIR Server/       ← [📘 Read the manual](./FHIR%20Server/README.md)
 ├── NSSO_Airflow/      ← [📘 Read the manual](./NSSO_Airflow/README.md)
 ├── wepapp/            ← [📘 Read the manual](./wepapp/README.md)
 └── readme.md
@@ -64,7 +64,7 @@ npm install && npm run dev
 | Module                 | User Guide                             |
 | ---------------------- | ------------------------------------------------------ |
 | 🏥 **FHIR Server**     | [📘 FHIR Server Setup](./FHIR%20Server/README.md)  |
-| 📊 **NSSO\_Airflow**   | [📘 NSSO\_Airflow Setup](./NSSO_Airflow/README.md) |
+| 📊 **NSSO\_Airflow**   | [📘 NSSO Airflow Setup](./NSSO_Airflow/README.md) |
 | 🌐 **Web Application** | [📘 wepapp Setup](./wepapp/README.md)              |
 
 
