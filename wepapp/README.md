@@ -73,3 +73,7 @@ wepapp/
 - If you need to connect additional APIs, you can customize ``` server.js ``` accordingly
 - For future growth, consider migrating to React, Vue, or other frameworks to better manage more complex UI
 
+---
+
+> Maintained by ClaimBridge FHIR
+
