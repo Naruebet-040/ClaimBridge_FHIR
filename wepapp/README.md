@@ -58,18 +58,18 @@ wepapp/
 ## 🧪 การทดสอบเบื้องต้น
 
 - Open your browser at ``` http://localhost:3000 ```
-- ตรวจสอบว่าโหลดหน้า index.html ได้ตามปกติ
-- ลองเข้าหน้า Sign in 
+- Verify that ``` index.html ``` loads correctly
+- Try accessing the Sign in page with credentials:
   ```bash
   username: NSSO
   password: NSSOpassword
   ```
-- ลองเข้าหน้า Resource List
-- ตรวจสอบว่า CSS และ JS โหลดทำงานได้ครบ
+- Navigate to the Resource List page
+- Check that CSS and JS files load and work properly
 
 ---
 
-## 📌 หมายเหตุ
-- หากต้องการเชื่อมต่อ API เพิ่มเติม สามารถปรับแต่งได้ใน server.js
-- หากระบบจะเติบโตในอนาคต อาจพิจารณาย้ายไปใช้ React, Vue หรือ Framework อื่นๆ เพื่อจัดการ UI ที่ซับซ้อนมากขึ้น
+## 📌 Notes
+- If you need to connect additional APIs, you can customize ``` server.js ``` accordingly
+- For future growth, consider migrating to React, Vue, or other frameworks to better manage more complex UI
 
