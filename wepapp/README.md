@@ -32,7 +32,7 @@ npm run dev
 ระบบจะพร้อมใช้งานที่:
 
 ```
-http://localhost:5173
+http://localhost:3000
 ```
 
 ---
