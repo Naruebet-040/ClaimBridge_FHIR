@@ -37,6 +37,11 @@ ClaimBridge_FHIR/
 └── readme.md
 ```
 
+### 📘 Read the manuals
+- [FHIR Server Manual](./FHIR%20Server/README.md)
+- [NSSO_Airflow Manual](./NSSO_Airflow/README.md)
+- [Webapp Manual](./wepapp/README.md)
+
 ---
 
 ## ▶️ Basic Usage
